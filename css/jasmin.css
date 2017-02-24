@@ -13,13 +13,14 @@ body {
     position : relative;
     margin : 0;
     min-height : 100%;
-    padding-bottom : 215px;
+    padding-top: 70px;
+    padding-bottom : 245px;
 }
 
 footer {
     position : absolute;
     bottom : 0px;
-    height : 195px;
+    height : 225px;
     width : 100%;
     background-color : #F8F8F8;
     border-top : 1px solid #E7E7E7;
@@ -44,10 +45,6 @@ footer img {
     #stfc-logo {
         text-align: right;
     }
-}
-
-#content-main {
-    margin-top : 70px;
 }
 
 .page-header {
@@ -221,7 +218,7 @@ footer img {
 .splash-header {
     border-radius: 6px 6px 0 0;
     overflow: hidden;
-    background: url(/static/jasmin_theme/img/banner.jpg) top left no-repeat;
+    background: url(../img/banner.jpg) top left no-repeat;
 }
 .splash-header h1 {
     margin: 0;
@@ -249,14 +246,14 @@ footer img {
 /* change the URL to a picture of your choice - the higher quality the better! */
 .business-header {
 	height: 200px;
-	background: url(/static/jasmin_theme/img/banner.jpg) top left no-repeat;
+	background: url(../img/banner.jpg) top left no-repeat;
     padding: 5px;
     border-radius: 5px;
 }
 
 .business-header-page {
 	height: 80px;
-	background: url(/static/jasmin_theme/img/banner.jpg) top left no-repeat;
+	background: url(../img/banner.jpg) top left no-repeat;
     padding: 5px;
     border-radius: 5px;
 }
