@@ -46,10 +46,6 @@ footer img {
     }
 }
 
-.spaced-row {
-    margin-bottom : 15px;
-}
-
 #content-main {
     margin-top : 70px;
 }
@@ -63,12 +59,7 @@ footer img {
     margin-bottom : 5px;
 }
 
-/* Don't have extra margin/padding at the bottom of a panel */
-.panel-body > :last-child, .help-block:last-child {
-    margin-bottom : 0;
-    padding-bottom : 0;
-}
-
+/* Add a border between consecutive panel bodies */
 .panel-body + .panel-body {
     border-top: 1px solid #ddd;
 }
@@ -287,43 +278,6 @@ footer img {
   padding-right: 0px;
 }
 
-.service {
-	margin: 5px;
-	text-align: center;
-}
-
-.service-icon {
-    color: #428BCA;
-}
-
-
-/* List group horizontal */
-.list-group-horizontal .list-group-item {
-  display: inline-block;
-}
-.list-group-horizontal .list-group-item {
-  margin-bottom: 0;
-  margin-left:-4px;
-  margin-right: 0;
-
-}
-.list-group-horizontal .list-group-item:first-child {
-  border-top-right-radius:0;
-  border-bottom-left-radius:4px;
-}
-.list-group-horizontal .list-group-item:last-child {
-  border-top-right-radius:4px;
-  border-bottom-left-radius:0;
-}
-/* remove border for special case */
-.list-group-item-special {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -o-border-radius: 0px;
-  border-radius: 0px;
-  border: 0px;
-}
-
 #ticker_container {
   padding:1px;
   border: 0px;
@@ -331,14 +285,6 @@ footer img {
   -moz-border-radius: 0px;
   border-radius: 0px;
   overflow: auto;
-}
-
-.alert-special {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -o-border-radius: 0px;
-  border-radius: 0px;
-  border: 0px;
 }
 
 .nav .badge {
