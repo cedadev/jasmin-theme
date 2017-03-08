@@ -51,6 +51,10 @@ footer img {
     margin-top : 10px;
 }
 
+.form-group:last-child, .help-block:last-child {
+    margin-bottom: 0;
+}
+
 /* Close the gap between help blocks to 5px */
 .help-block {
     margin-bottom : 5px;
